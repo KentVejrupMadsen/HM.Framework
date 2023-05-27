@@ -3,10 +3,14 @@ from setup.configuration.variables \
     setup_of_default_variables, \
     clean
 
+from jobs.workflows \
+    import Workflow
+
 
 class AutomationFramework:
     def __init__(self):
         setup_of_default_variables()
+        self.workflow = Workflow()
 
     def __del__(self):
         clean()
