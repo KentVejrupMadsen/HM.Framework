@@ -1,1 +1,0 @@
-# video-frame-extractor
