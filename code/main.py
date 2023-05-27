@@ -1,5 +1,16 @@
+from framework \
+    import AutomationFramework
+
+
 def main():
-    pass
+    automated = AutomationFramework()
+
+    try:
+        automated.setup()
+        automated.execute()
+
+    finally:
+        automated.finish()
 
 
 if __name__ == '__main__':
