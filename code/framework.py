@@ -6,6 +6,9 @@ from setup.configuration.variables \
 from jobs.workflows \
     import Workflow
 
+from jobs.jobs \
+    import Job
+
 
 class AutomationFramework:
     def __init__(self):
@@ -13,6 +16,7 @@ class AutomationFramework:
         self.workflow = Workflow()
 
     def __del__(self):
+        self.finish()
         clean()
 
     def setup(self):
@@ -23,3 +27,33 @@ class AutomationFramework:
 
     def finish(self):
         pass
+
+    def append_job(
+            self,
+            job: Job
+    ) -> None:
+        self.workflow           \
+            .buffer             \
+            .insert_value(
+                job
+            )
+
+    def get_job(
+            self,
+            value: int
+    ) -> Job | int | None:
+        return self.workflow\
+                   .buffer\
+                   .get_value_by_index(
+                        value
+                   )
+
+    def delete_job(
+            self,
+            value: int
+    ) -> bool:
+        return self.workflow\
+                   .buffer\
+                   .delete_value_at_index(
+                        value
+                   )

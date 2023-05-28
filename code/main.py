@@ -1,8 +1,6 @@
 from framework \
     import AutomationFramework
 
-from globals.paths import get_path_to_user_directory
-
 
 def main():
     automated = AutomationFramework()
