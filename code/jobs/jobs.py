@@ -14,3 +14,7 @@ class Job (ABC):
     @abstractmethod
     def execute_action(self):
         pass
+
+    @abstractmethod
+    def help_action(self):
+        pass
