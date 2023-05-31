@@ -1,4 +1,4 @@
-from jobs.buffers \
+from HM.automation.jobs.buffers \
     import Buffer
 
 

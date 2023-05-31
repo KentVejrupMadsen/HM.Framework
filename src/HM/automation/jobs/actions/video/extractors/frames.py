@@ -1,9 +1,3 @@
-from moviepy.editor \
-    import VideoFileClip
-
-from operators.counter \
-    import Counter
-
 from os.path \
     import \
     isdir, \
@@ -12,8 +6,13 @@ from os.path \
 
 from math \
     import \
-    floor, \
-    ceil
+    floor
+
+from moviepy.editor \
+    import VideoFileClip
+
+from HM.objects.operators.counter \
+    import Counter
 
 
 class Extractor:
@@ -96,16 +95,10 @@ class Extractor:
                         counter_of_frames.get_value_as_string() + '.' + self.get_save_frames_as_format()
                     )
                 ),
-
-                t = frame_at
+                t=frame_at
             )
 
             counter_of_frames.increment()
-
-
-
-
-
 
     def exist_video_file(self) -> bool:
         return isfile(
