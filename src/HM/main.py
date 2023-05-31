@@ -1,16 +1,16 @@
-from HM.automation.singleton \
-    import get_automation_framework
+from HM.automation.singleton   \
+    import                     \
+    get_automation_framework,  \
+    delete_automation_framework
 
 
 def main():
     automation = get_automation_framework()
 
-    try:
-        automation.setup()
-        automation.execute()
+    automation.setup()
+    automation.execute()
 
-    finally:
-        automation.finish()
+    delete_automation_framework()
 
 
 if __name__ == '__main__':

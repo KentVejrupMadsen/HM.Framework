@@ -31,3 +31,7 @@ def set_automation_framework(
     global automation_singleton
     automation_singleton = variable
 
+
+def delete_automation_framework() -> None:
+    global automation_singleton
+    del automation_singleton
