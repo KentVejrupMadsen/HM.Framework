@@ -3,7 +3,7 @@ from HM.automation.framework \
     import AutomationFramework
 
 # variables
-automation_singleton: None
+automation_singleton: None | AutomationFramework = None
 
 
 # Accessors & State management
