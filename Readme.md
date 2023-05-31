@@ -1,5 +1,9 @@
 # Project - The Hugin and Munin Framework
-Video application to extract data from files in a automated manner.
+Framework with the purpose of 
+* to extract information from media files
 
-
-
+* management 
+  * pipelines
+  
+  * temporary configuration memory
+  * temporary working files
