@@ -26,8 +26,6 @@ class Extractor:
 
         self.video_clip: None
         self.save_frames_as_format: str = save_frames_as
-
-        self.debug_mode: bool = True
         self.snapshot_at: float = 1.0
 
     def __del__(self):
