@@ -19,6 +19,3 @@ class ConfigurationStore:
     def set_queue(self, value) -> None:
         self.queue = value
 
-
-## Testing
-test = ConfigurationStore()

@@ -1,7 +1,8 @@
 from HM.globals.constants \
-    import \
-    zero, \
-    one
+    import                \
+    zero,                 \
+    one,                  \
+    negative_one
 
 from HM.globals.labels \
     import get_project_file_label

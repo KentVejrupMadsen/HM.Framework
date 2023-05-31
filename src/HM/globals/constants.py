@@ -6,3 +6,6 @@ def zero() -> int:
 def one() -> int:
     return 1
 
+
+def negative_one() -> int:
+    return -1
