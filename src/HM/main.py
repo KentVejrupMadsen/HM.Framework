@@ -1,3 +1,5 @@
+# Used to testing the framework
+## TODO: Delete when releasing
 from HM.automation.singleton   \
     import                     \
     get_automation_framework,  \
