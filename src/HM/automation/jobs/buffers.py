@@ -1,4 +1,4 @@
-from jobs.jobs \
+from HM.automation.jobs.jobs \
     import Job
 
 

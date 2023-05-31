@@ -1,4 +1,4 @@
-from globals.paths \
+from HM.globals.paths \
     import \
     set_path_to_library_folder, \
     set_path_to_output_folder,  \
@@ -7,7 +7,7 @@ from globals.paths \
     get_path_to_project_folder, \
     set_path_to_user_directory
 
-from globals.constants \
+from HM.globals.constants \
     import zero
 
 

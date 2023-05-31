@@ -95,16 +95,10 @@ class Extractor:
                         counter_of_frames.get_value_as_string() + '.' + self.get_save_frames_as_format()
                     )
                 ),
-
-                t = frame_at
+                t=frame_at
             )
 
             counter_of_frames.increment()
-
-
-
-
-
 
     def exist_video_file(self) -> bool:
         return isfile(

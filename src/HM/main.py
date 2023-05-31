@@ -1,4 +1,4 @@
-from framework \
+from HM.automation.framework \
     import AutomationFramework
 
 
