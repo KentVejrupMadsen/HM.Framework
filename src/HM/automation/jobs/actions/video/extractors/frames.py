@@ -1,9 +1,3 @@
-from moviepy.editor \
-    import VideoFileClip
-
-from operators.counter \
-    import Counter
-
 from os.path \
     import \
     isdir, \
@@ -12,8 +6,13 @@ from os.path \
 
 from math \
     import \
-    floor, \
-    ceil
+    floor
+
+from moviepy.editor \
+    import VideoFileClip
+
+from HM.objects.operators.counter \
+    import Counter
 
 
 class Extractor:
