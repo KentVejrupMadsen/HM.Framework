@@ -1,12 +1,20 @@
 from abc \
-    import \
-    ABC, \
-    abstractmethod
+    import ABC
 
 
-class ConfigurationEntry:
+class ConfigurationEntry(ABC):
     def __init__(self):
-        pass
+        self.identifier: str | None = None
 
     def __del__(self):
-        pass
+        del self.identifier
+
+    def get_identifier(self) -> str:
+        return self.identifier
+
+    def set_identifier(
+            self,
+            value: str
+    ) -> None:
+        self.identifier = value
+
