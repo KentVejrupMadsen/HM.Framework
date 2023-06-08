@@ -15,6 +15,11 @@ Framework with the purpose of
   * temporary configuration memory
   * temporary working files
 
+## Content
+1. [License](License.md)
+2. [Changelog](Changelog.md)
+
+
 ## Documentation
 ### Other libraries
 * [Pytest](https://docs.pytest.org/en/7.3.x/contents.html)
