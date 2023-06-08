@@ -5,6 +5,7 @@ venv/*
 # IDE Directories to ignore
 .idea/*
 dist/*
+.pytest_cache/*
 
 # directories to be ignored
 hm_framework.egg-info/*
