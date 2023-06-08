@@ -1,7 +1,13 @@
-.idea/*
+# Environment packages
 .venv/*
+venv/*
+
+# IDE Directories to ignore
+.idea/*
 dist/*
 
-frames/*
+# directories to be ignored
+hm_framework.egg-info/*
 
+# Files to be ignored
 *.pyc

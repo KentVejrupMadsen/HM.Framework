@@ -1,6 +1,6 @@
-from globals.constants \
+from HM.globals \
     import \
-    zero,\
+    zero, \
     one
 
 
