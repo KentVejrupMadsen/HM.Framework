@@ -1,8 +1,9 @@
 # Project - The Hugin and Munin Framework
-## Installation
+## Summary
+### Installation
     pip install hm-framework
 
-## Description
+### Description
 Framework with the purpose of 
 * to extract information from media files
 
@@ -13,3 +14,7 @@ Framework with the purpose of
     * Output 
   * temporary configuration memory
   * temporary working files
+
+## Documentation
+### Other libraries
+* [Pytest](https://docs.pytest.org/en/7.3.x/contents.html)
