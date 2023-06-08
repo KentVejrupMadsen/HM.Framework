@@ -1,16 +1,18 @@
-from HM.automation.framework \
-    import AutomationFramework
+# Used to testing the framework
+## TODO: Delete when releasing
+from HM.automation.singleton   \
+    import                     \
+    get_automation_framework,  \
+    delete_automation_framework
 
 
 def main():
-    automated = AutomationFramework()
+    automation = get_automation_framework()
 
-    try:
-        automated.setup()
-        automated.execute()
+    automation.setup()
+    automation.execute()
 
-    finally:
-        automated.finish()
+    delete_automation_framework()
 
 
 if __name__ == '__main__':

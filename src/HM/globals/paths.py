@@ -1,3 +1,4 @@
+# Variables
 path_to_project_folder: None | str = None
 path_to_library_folder: None | str = None
 
