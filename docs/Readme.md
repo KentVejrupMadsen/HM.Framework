@@ -1,2 +1,2 @@
-# Documentation the Hugin and Munin framework
+# Documentation for the Hugin and Munin framework
 ## 
