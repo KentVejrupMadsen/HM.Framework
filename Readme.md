@@ -1,4 +1,4 @@
-# The Hugin and Munin Framework
+# The Hugin and Munin framework
 ## Summary
 ### Installation
     pip install hm-framework
