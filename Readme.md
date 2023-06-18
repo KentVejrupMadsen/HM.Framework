@@ -1,4 +1,4 @@
-# The Hugin and Munin Framework
+# The Hugin and Munin framework
 ## Summary
 ### Installation
     pip install hm-framework
@@ -14,6 +14,11 @@ Framework with the purpose of
     * Output 
   * temporary configuration memory
   * temporary working files
+
+## Content
+1. [License](License.md)
+2. [Changelog](Changelog.md)
+
 
 ## Documentation
 ### Other libraries
